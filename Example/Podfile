@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SNNCalendar_Tests' do
+  pod 'SNNCalendar', :path => '../'
+  
+  
+end
