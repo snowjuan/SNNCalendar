@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D762BC9D827BDD5FC1402AB109F6EFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6DFC743F8521DF137C9F060163C73FD5 /* SNNCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AB6155DD903CEAD58D2716CA370099 /* SNNCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C4C13EFFEA8ED7C34F3A100FBEE905C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		90984F876E7CAB4924AE2AF3771E4FA1 /* SNNCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB2F575B7E2EF7467880B035A334A2 /* SNNCalendar-dummy.m */; };
+		B708B9527DD8C2A6580602462BC01F41 /* Pods-SNNCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDD781C8428A176046290B5F0A121AE /* Pods-SNNCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7E72D6253B6FB1CE270A6901B92C2DB /* Pods-SNNCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A71DA31331CE0BCF5CEA8DE41214FF0D /* Pods-SNNCalendar_Tests-dummy.m */; };
+		C3D8DA71E93AB1D36391A6B92BB70398 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B76EAEEA40294E2E606B68AB2661947 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A57ABF66851EB74E3FCBB8BB80277BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26902841C6C17E67BB4D67188BDD15E6;
+			remoteInfo = SNNCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022AC0B2F2D2F353FCC713A829DF5482 /* Pods-SNNCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNNCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		18890EA3B8DA0689611416F46AEA610C /* SNNCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNNCalendar-prefix.pch"; sourceTree = "<group>"; };
+		1B76EAEEA40294E2E606B68AB2661947 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		1EDB2F575B7E2EF7467880B035A334A2 /* SNNCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNNCalendar-dummy.m"; sourceTree = "<group>"; };
+		27897A4547ABE7C943702AE6EB6BD3E9 /* Pods-SNNCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SNNCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		37102AD4591F47678F209DD81404AD3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A5F1470A4A05132345B0A09F5E580D /* Pods-SNNCalendar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNNCalendar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		55BE578EE8E751503674264688ACE60E /* Pods-SNNCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNNCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7FDD781C8428A176046290B5F0A121AE /* Pods-SNNCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNNCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		843C580EA92DEFC6F9B018E609AFFB2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A07928663009216B9D4D3482B60F388 /* Pods-SNNCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNNCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91AB6155DD903CEAD58D2716CA370099 /* SNNCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNNCalendar-umbrella.h"; sourceTree = "<group>"; };
+		9282ED8ECD72017F47E75EA1712AE501 /* SNNCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SNNCalendar.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9495D26A41FB17847B6488EDAE530D63 /* SNNCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNNCalendar.xcconfig; sourceTree = "<group>"; };
+		9E76AD13BBC177B78782A26E93E59C1D /* Pods-SNNCalendar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNNCalendar_Tests-resources.sh"; sourceTree = "<group>"; };
+		A71DA31331CE0BCF5CEA8DE41214FF0D /* Pods-SNNCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNNCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		B096A96FCA5DA35731BA1B1366958B8D /* Pods-SNNCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNNCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E7FB6B414C17C8C889E3470B70E6E1BF /* SNNCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SNNCalendar.framework; path = SNNCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97359E5384E310E3E8FF43FE70142F0 /* Pods_SNNCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNNCalendar_Tests.framework; path = "Pods-SNNCalendar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3972743282142A77DD311350DA7807E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4C13EFFEA8ED7C34F3A100FBEE905C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FFACF30FF1727A101757305F49962F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D762BC9D827BDD5FC1402AB109F6EFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DAAE287C467DBD94EDD6F8F88B7F95 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2E4DC694E72564C427DDE3C3FE5ACE7 /* SNNCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		14F1E707BEB2CA06581E09D43748D598 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4031265B125B2F922AC4CBCA013E6565 /* Pods-SNNCalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1B1AA665CC02FF5D9D646A03BB7D17BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37102AD4591F47678F209DD81404AD3B /* Info.plist */,
+				9282ED8ECD72017F47E75EA1712AE501 /* SNNCalendar.modulemap */,
+				9495D26A41FB17847B6488EDAE530D63 /* SNNCalendar.xcconfig */,
+				1EDB2F575B7E2EF7467880B035A334A2 /* SNNCalendar-dummy.m */,
+				18890EA3B8DA0689611416F46AEA610C /* SNNCalendar-prefix.pch */,
+				91AB6155DD903CEAD58D2716CA370099 /* SNNCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SNNCalendar";
+			sourceTree = "<group>";
+		};
+		3F9E16642F0C7172B5D4A3290233F769 /* SNNCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				7B5ED56F33DA95ED2FE732855B45DD1D /* Classes */,
+			);
+			name = SNNCalendar;
+			path = SNNCalendar;
+			sourceTree = "<group>";
+		};
+		4031265B125B2F922AC4CBCA013E6565 /* Pods-SNNCalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				843C580EA92DEFC6F9B018E609AFFB2F /* Info.plist */,
+				27897A4547ABE7C943702AE6EB6BD3E9 /* Pods-SNNCalendar_Tests.modulemap */,
+				8A07928663009216B9D4D3482B60F388 /* Pods-SNNCalendar_Tests-acknowledgements.markdown */,
+				022AC0B2F2D2F353FCC713A829DF5482 /* Pods-SNNCalendar_Tests-acknowledgements.plist */,
+				A71DA31331CE0BCF5CEA8DE41214FF0D /* Pods-SNNCalendar_Tests-dummy.m */,
+				51A5F1470A4A05132345B0A09F5E580D /* Pods-SNNCalendar_Tests-frameworks.sh */,
+				9E76AD13BBC177B78782A26E93E59C1D /* Pods-SNNCalendar_Tests-resources.sh */,
+				7FDD781C8428A176046290B5F0A121AE /* Pods-SNNCalendar_Tests-umbrella.h */,
+				B096A96FCA5DA35731BA1B1366958B8D /* Pods-SNNCalendar_Tests.debug.xcconfig */,
+				55BE578EE8E751503674264688ACE60E /* Pods-SNNCalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-SNNCalendar_Tests";
+			path = "Target Support Files/Pods-SNNCalendar_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B5ED56F33DA95ED2FE732855B45DD1D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B76EAEEA40294E2E606B68AB2661947 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				10DAAE287C467DBD94EDD6F8F88B7F95 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B176F8A93A1BAB657B7B93427A89CF28 /* Products */,
+				14F1E707BEB2CA06581E09D43748D598 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2E4DC694E72564C427DDE3C3FE5ACE7 /* SNNCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3F9E16642F0C7172B5D4A3290233F769 /* SNNCalendar */,
+				1B1AA665CC02FF5D9D646A03BB7D17BE /* Support Files */,
+			);
+			name = SNNCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B176F8A93A1BAB657B7B93427A89CF28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F97359E5384E310E3E8FF43FE70142F0 /* Pods_SNNCalendar_Tests.framework */,
+				E7FB6B414C17C8C889E3470B70E6E1BF /* SNNCalendar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DEEFE1DF1C2FE57A8D3D473D0C589D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B708B9527DD8C2A6580602462BC01F41 /* Pods-SNNCalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FAE17371C0E1010B0E82BD02C73D72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFC743F8521DF137C9F060163C73FD5 /* SNNCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26902841C6C17E67BB4D67188BDD15E6 /* SNNCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FE6189D2A4BD8472E05C037DB999ED /* Build configuration list for PBXNativeTarget "SNNCalendar" */;
+			buildPhases = (
+				45174810D6CC73CA0B2258F827DBC72A /* Sources */,
+				51FFACF30FF1727A101757305F49962F /* Frameworks */,
+				A4FAE17371C0E1010B0E82BD02C73D72 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNNCalendar;
+			productName = SNNCalendar;
+			productReference = E7FB6B414C17C8C889E3470B70E6E1BF /* SNNCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B97D2B8468F50F3C267B0EB70ED83029 /* Pods-SNNCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0768A751F2B405608675CDCD9E129825 /* Build configuration list for PBXNativeTarget "Pods-SNNCalendar_Tests" */;
+			buildPhases = (
+				2E52423979AE2C1C3557BC1640DB6945 /* Sources */,
+				3972743282142A77DD311350DA7807E9 /* Frameworks */,
+				2DEEFE1DF1C2FE57A8D3D473D0C589D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4729E8500425A4BBEF6B5E86A0BE6C3D /* PBXTargetDependency */,
+			);
+			name = "Pods-SNNCalendar_Tests";
+			productName = "Pods-SNNCalendar_Tests";
+			productReference = F97359E5384E310E3E8FF43FE70142F0 /* Pods_SNNCalendar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B176F8A93A1BAB657B7B93427A89CF28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B97D2B8468F50F3C267B0EB70ED83029 /* Pods-SNNCalendar_Tests */,
+				26902841C6C17E67BB4D67188BDD15E6 /* SNNCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E52423979AE2C1C3557BC1640DB6945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E72D6253B6FB1CE270A6901B92C2DB /* Pods-SNNCalendar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45174810D6CC73CA0B2258F827DBC72A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D8DA71E93AB1D36391A6B92BB70398 /* ReplaceMe.swift in Sources */,
+				90984F876E7CAB4924AE2AF3771E4FA1 /* SNNCalendar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4729E8500425A4BBEF6B5E86A0BE6C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SNNCalendar;
+			target = 26902841C6C17E67BB4D67188BDD15E6 /* SNNCalendar */;
+			targetProxy = A57ABF66851EB74E3FCBB8BB80277BB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C0C7CCCB10C9622FFE2AAC58087E21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55BE578EE8E751503674264688ACE60E /* Pods-SNNCalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SNNCalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNNCalendar_Tests/Pods-SNNCalendar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SNNCalendar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AC1B2B2F59307FDCC6D02700CFECCF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9495D26A41FB17847B6488EDAE530D63 /* SNNCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SNNCalendar/SNNCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNNCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNNCalendar/SNNCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SNNCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1FC90F02C35D9AFD61D7A414742D2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9495D26A41FB17847B6488EDAE530D63 /* SNNCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SNNCalendar/SNNCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNNCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNNCalendar/SNNCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SNNCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA68FDA038CE00BAE132825273D1C33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B096A96FCA5DA35731BA1B1366958B8D /* Pods-SNNCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SNNCalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNNCalendar_Tests/Pods-SNNCalendar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SNNCalendar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0768A751F2B405608675CDCD9E129825 /* Build configuration list for PBXNativeTarget "Pods-SNNCalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA68FDA038CE00BAE132825273D1C33E /* Debug */,
+				6C0C7CCCB10C9622FFE2AAC58087E21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FE6189D2A4BD8472E05C037DB999ED /* Build configuration list for PBXNativeTarget "SNNCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FC90F02C35D9AFD61D7A414742D2AF /* Debug */,
+				AC1B2B2F59307FDCC6D02700CFECCF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

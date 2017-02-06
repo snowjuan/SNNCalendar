@@ -1,0 +1,22 @@
+{
+  "name": "SNNCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of SNNCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/snowjuan/SNNCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "snowjuan": "henry.hou@intradiem.com"
+  },
+  "source": {
+    "git": "https://github.com/snowjuan/SNNCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SNNCalendar/Classes/**/*"
+}

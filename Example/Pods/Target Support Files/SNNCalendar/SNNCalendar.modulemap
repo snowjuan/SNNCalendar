@@ -1,0 +1,6 @@
+framework module SNNCalendar {
+  umbrella header "SNNCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SNNCalendar (0.1.0)
+
+DEPENDENCIES:
+  - SNNCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  SNNCalendar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SNNCalendar: f4eda689206197e00951a8b485037cc8e210703b
+
+PODFILE CHECKSUM: 784e231ebf8dfcbba92108693c2f89a31433f13a
+
+COCOAPODS: 1.1.1
